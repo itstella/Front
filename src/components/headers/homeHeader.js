@@ -1,6 +1,7 @@
 import React from 'react'
 import tw from 'twin.macro';
 import Profile from '../images/corgi.jpeg';
+import Cards from '../features/cards.js';
 
 const Container = tw.div`py-8 
 bg-[#f4f4f4] hover:bg-dustyPink transition duration-300 ease-in-out
@@ -18,6 +19,7 @@ function App() {
       <Header>Hello World</Header>
       {/* <Profile />  */}
       <Header>Images</Header>
+      <Cards />
     </Container>
   );
 }
