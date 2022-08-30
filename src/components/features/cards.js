@@ -15,6 +15,7 @@ import ShareIcon from '@mui/icons-material/Share';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import tw from 'twin.macro';
+import Shrimp from '../images/shrimp.jpeg';
 
 const Container = tw.span`flex items-center justify-center `;
 
@@ -56,7 +57,7 @@ export default function RecipeReviewCard() {
       <CardMedia
         component="img"
         height="194"
-        image="./images/corgi.jpeg"
+        img src={Shrimp}  alt={''}
         alt="Paella dish"
       />
       <CardContent>
