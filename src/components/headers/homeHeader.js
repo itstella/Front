@@ -18,7 +18,7 @@ const Subheader = tw.h4``;
 function App() {
   return (
     <Container>
-      <Header>Hello World</Header>
+      <Header>My Recipes</Header>
       <ImageContainer>
       <img src={Shrimp}  alt={''} />
       </ImageContainer>
